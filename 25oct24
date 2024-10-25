@@ -1,0 +1,10 @@
+let myDiv = document.createElement('div')
+myDiv.innerText = 'Мой DIV'
+document.body.append(myDiv)
+
+let myButton = document.createElement('button')
+myButton.innerText = 'Моя Кнопка'
+
+let myImage = document.createElement('img')
+myImage.src = 'имя файла с картинкой'
+document.body.append(myImage)
